@@ -42,8 +42,8 @@ impl pallet_transaction_payment::Config for Runtime {
     TargetBlockFullness,
     AdjustmentVariable,
     MinimumMultiplier,
-    MaximumMultiplier,
->;
+    MaximumMultiplier,>;
+}
 ```
 
 ## Usage
