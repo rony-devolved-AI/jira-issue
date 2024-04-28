@@ -48,6 +48,8 @@ Use your blockchain’s governance interface to monitor the voting process.
 
 ### Step 4: Applying the Upgrade
 
+![Screenshot from 2024-04-28 15-42-19](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/100bfe73-0954-429c-8726-9e2da0b800cd)
+
 #### Automatic Execution
 Once the proposal is approved and passes any additional governance hurdles (like a referendum, if applicable), the upgrade will automatically be applied at the block specified in the proposal.
 
@@ -57,6 +59,9 @@ After the block at which the upgrade was set to apply passes, verify that the ne
 ### Post-Upgrade
 
 After the upgrade, monitor the network for any unforeseen issues. Check logs, node health, and user feedback to ensure that the network operates as expected.
+
+
+
 
 
 
