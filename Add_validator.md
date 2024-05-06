@@ -1,4 +1,4 @@
-# Becoming a Validator on a Substrate-based Blockchain
+# Becoming a Validator on a Substrate-based Blockchain(Argochain)
 
 This guide provides step-by-step instructions on how to become a validator on a Substrate-based blockchain. It covers the installation of necessary tools, generation of cryptographic keys, and configuration of a blockchain node.
 
