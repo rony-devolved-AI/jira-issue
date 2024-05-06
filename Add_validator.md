@@ -5,7 +5,7 @@ This guide provides step-by-step instructions on how to become a validator on a 
 ## Prerequisites
 
 - **Rust:** Ensure that Rust and `rustup` are installed on your system. You can check your current Rust version by running `rustc --version`.
-- **Substrate Node:** A compiled Substrate node ready to be configured for your specific blockchain (in this example, named `argochain`).
+- **Substrate Node:** A compiled Substrate node ready to be configured for your specific blockchain (named `argochain`).
 
 ## 1. Update Rust Toolchain
 
