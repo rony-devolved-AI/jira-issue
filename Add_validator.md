@@ -29,6 +29,19 @@ You need to generate several types of keys for different roles within the networ
 
 
 
+### STASH ACCOUNT 
+
+```bash
+subkey generate --scheme sr25519 --password-interactive
+```
+
+### CONTROLLER ACCOUNT 
+
+```bash
+subkey generate --scheme sr25519 --password-interactive
+```
+
+
 ### BABE (Block Production)
 
 ```bash
