@@ -176,8 +176,17 @@ nohup ./target/release/argochain \
 ```
 ### Do Staking
 
-#### > Go to https://explorer.argoscan.net/ 
-file:///home/ronnie/Downloads/Screenshot_29.png
+#### > Go to https://polkadot.js.org/apps/#/explorer
+
+![10](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/4b392623-813b-45f2-ba85-3d6d83c58a28)
+
+#### >  Click on Development and Add new custom Endpoint `wss://expotest.devolvedai.com`
+![11](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/6dd060da-34d5-4af8-b4d1-2128aa4eea8f)
+
+#### > Click on Save & Switch
+
+![image](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/ef45d617-e9f9-4797-9388-87c7ac523dff)
+
 
 #### >  Click on Network Section
 ![Screenshot_29](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/6b526253-91b8-4a0d-af5e-e10937a0b641)
