@@ -140,7 +140,7 @@ subkey generate --scheme Sr25519 --password-interactive
 ```
 
 
-<!-- 
+
 ### Run As Validator: 
 
 ```bash
@@ -150,14 +150,14 @@ subkey generate --scheme Sr25519 --password-interactive
   --port <Give your desired Port Number> \
   --rpc-port <Give your desired Rpc Port Number> \
   --telemetry-url "wss://telemetry.polkadot.io/submit/ 0" \
+  --name <Validator Name> 
   --validator \
   --rpc-methods Unsafe \
   --unsafe-rpc-external \
-  --rpc-cors all \
   --rpc-max-connections 15000 \
-  --name <Validator Name> \
-  --bootnodes /ip4/<Bootnode Ip>/tcp/30333/p2p/<Bootnode Local ID> &
-``` -->
+  --rpc-cors all &
+
+```
 
 #### Example 
 
