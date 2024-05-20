@@ -177,6 +177,8 @@ nohup ./target/release/argochain \
 #### Do Staking
 
 Go to https://explorer.argoscan.net/ 
+file:///home/ronnie/Downloads/Screenshot_29.png
+
 Click on Network Section
 Then Staking
 Then Accounts section
