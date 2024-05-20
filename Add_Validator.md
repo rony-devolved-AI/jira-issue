@@ -40,6 +40,97 @@ This command enables the required WSL 2 components that are part of the Windows 
 9. rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
 
+
+
+
+
+## Setup Key Pairs: 
+
+###  Install Subkey
+
+`subkey` is a tool for generating and managing cryptographic keys used in Substrate and Polkadot networks:
+
+```bash
+cargo install subkey --force --locked
+```
+
+
+### BABE (Block Production)
+
+```bash
+subkey generate --scheme Sr25519 --password-interactive
+```
+
+#### Example
+```bash
+Secret phrase:       fog nature review grass dune lunar load pattern blood measure orphan board
+  Network ID:        substrate
+  Secret seed:       0xdb71292267b812eb5d23c906d923dde25a22883635a79545268897807c05e327
+  Public key (hex):  0x3af78e69eb6c75d416bc5a78ce77a9053feef4ecb2cffd5ff91b2dbb9c04525e
+  Account ID:        0x3af78e69eb6c75d416bc5a78ce77a9053feef4ecb2cffd5ff91b2dbb9c04525e
+  Public key (SS58): 5DQ2B3n7gPtGXbdUHyYSaiWerE63nWbnB6MtsRTZfHW8jBr6
+  SS58 Address:      5DQ2B3n7gPtGXbdUHyYSaiWerE63nWbnB6MtsRTZfHW8jBr6
+```
+#### Now Run below command , Replace <Secret Seed> With your Secret Seed (Do not used the one shown in as Example)
+
+```bash
+./target/release/argochain key insert --base-path /tmp/node05 \
+--chain ./customSpecRaw.json \
+--scheme Sr25519 \
+--suri <Secret Seed> \
+--password-interactive \
+--key-type babe
+```
+
+### GRANDPA (Finality Gadget)
+
+
+```bash
+subkey generate --scheme Ed25519 --password-interactive
+```
+#### Now Run below command , Replace <Secret Seed> With your Secret Seed (Do not used the one shown in as Example)
+
+```bash
+./target/release/argochain key insert --base-path /tmp/node05 \
+--chain ./customSpecRaw.json \
+--scheme Ed25519 \
+--suri 0xb36bf9f8705e9ba7d5d8633288a23084ef31b1934a55fca70153682d95958818 \
+--password-interactive \
+--key-type gran
+```
+
+
+### IM Online
+
+```bash
+subkey generate --scheme Sr25519 --password-interactive
+```
+#### Now Run below command , Replace <Secret Seed> With your Secret Seed (Do not used the one shown in as Example)
+```bash
+./target/release/argochain key insert --base-path /tmp/node05 \
+--chain ./customSpecRaw.json \
+--scheme Sr25519 \
+--suri 0x651497fc973f1cf23bd3eccefbc8297f9fff6ca7dcf316ab0e245ddcb61db386 \
+--password-interactive \
+--key-type imon
+```
+
+### Authority Discovery
+
+```bash
+subkey generate --scheme Sr25519 --password-interactive
+```
+#### Now Run below command , Replace <Secret Seed> With your Secret Seed (Do not used the one shown in as Example)
+
+```bash
+./target/release/argochain key insert --base-path /tmp/node05 \
+--chain ./customSpecRaw.json \
+--scheme Sr25519 \
+--suri 0x4172ab61c3f1b92dcc6c8555508d0bd111db6319d605c4ff9100cd8e885a20a3 \
+--password-interactive \
+--key-type audi
+```
+
 ### Setup The Repo
 
 ```bash
@@ -48,6 +139,8 @@ This command enables the required WSL 2 components that are part of the Windows 
 3. cargo build --release
 ```
 
+
+<!-- 
 ### Run As Validator: 
 
 ```bash
@@ -64,7 +157,7 @@ This command enables the required WSL 2 components that are part of the Windows 
   --rpc-max-connections 15000 \
   --name <Validator Name> \
   --bootnodes /ip4/<Bootnode Ip>/tcp/30333/p2p/<Bootnode Local ID> &
-```
+``` -->
 
 #### Example 
 
