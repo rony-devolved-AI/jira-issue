@@ -55,6 +55,14 @@ cargo install subkey --force --locked
 ```
 
 
+### Setup The Repo
+
+```bash
+1. git clone --branch chainspec-modified https://github.com/Devolved-AI/Argochain.git
+2. cd Argochain
+3. cargo build --release
+```
+
 ### BABE (Block Production)
 
 ```bash
@@ -129,14 +137,6 @@ subkey generate --scheme Sr25519 --password-interactive
 --suri <Secret Seed> \
 --password-interactive \
 --key-type audi
-```
-
-### Setup The Repo
-
-```bash
-1. git clone --branch chainspec-modified https://github.com/Devolved-AI/Argochain.git
-2. cd Argochain
-3. cargo build --release
 ```
 
 
