@@ -43,8 +43,8 @@ This command enables the required WSL 2 components that are part of the Windows 
 ### Setup The Repo
 
 ```bash
-1. git clone https://github.com/rony-devolved-AI/Argochain_TestNet.git
-2. cd Argochain_TestNet
+1. git clone --branch chainspec-modified https://github.com/Devolved-AI/Argochain.git
+2. cd Argochain
 3. cargo build --release
 ```
 
@@ -70,18 +70,16 @@ This command enables the required WSL 2 components that are part of the Windows 
 
 ```bash
 nohup ./target/release/argochain \
-  --base-path /tmp/node01 \
-  --chain customSpecRaw.json \
-  --port 30334 \
-  --rpc-port 9960 \
-  --telemetry-url "wss://telemetry.polkadot.io/submit/ 0" \
-  --validator \
-  --rpc-methods Unsafe \
-  --unsafe-rpc-external \
-  --rpc-cors all \
-  --rpc-max-connections 15000 \
-  --name MyNode01 \
-  --bootnodes /ip4/54.169.77.172/tcp/30333/p2p/12D3KooWGfqVGDbrCm46YiBdzap6R26wuRrTdgjHpWSrHX8wDHXp &
+--base-path /tmp/node07 \
+--chain ./customSpecRaw.json \
+--port 30345 \
+--rpc-port 9955 \
+--name MyNode06 \
+--validator \
+--rpc-methods Unsafe \
+--unsafe-rpc-external \
+--rpc-max-connections 15000 \
+--rpc-cors all  &
 ```
 #### Do Staking
 
