@@ -176,12 +176,12 @@ nohup ./target/release/argochain \
 ```
 #### Do Staking
 
-1. Go to https://explorer.argoscan.net/ 
-2. Network Section
-3. Then Staking
-4. Then Accounts section
-5. Click on validator
-6. Get Your rotatekeys  > Open terminal > Move to Argochain folder then Do this Command
+Go to https://explorer.argoscan.net/ 
+Click on Network Section
+Then Staking
+Then Accounts section
+Click on validator
+Get Your rotatekeys  > Open terminal > Move to Argochain folder then Do this Command
 `curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0", "method":"author_rotateKeys", "params":[], "id":1}' http://localhost:9950` 
 > Here http://localhost:your rpc port
 
