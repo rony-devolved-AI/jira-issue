@@ -174,16 +174,24 @@ nohup ./target/release/argochain \
 --rpc-max-connections 15000 \
 --rpc-cors all  &
 ```
-#### Do Staking
+### Do Staking
 
-Go to https://explorer.argoscan.net/ 
+#### > Go to https://explorer.argoscan.net/ 
 file:///home/ronnie/Downloads/Screenshot_29.png
 
-Click on Network Section
-Then Staking
-Then Accounts section
-Click on validator
-Get Your rotatekeys  > Open terminal > Move to Argochain folder then Do this Command
+#### >  Click on Network Section
+![Screenshot_29](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/6b526253-91b8-4a0d-af5e-e10937a0b641)
+
+#### > Then Staking
+![Screenshot_30](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/4e08be0e-d9fc-498b-8d8a-7224deb60d4c)
+
+#### > Then Accounts section
+![Screenshot_31](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/14354308-4ae1-4423-baeb-17d9b01e27b6)
+
+#### > Click on validator
+![Screenshot_32](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/c8afe76b-2af6-470a-b4e3-a3ae40775de5)
+
+#### > Get Your rotatekeys  > Open terminal > Move to Argochain folder then Do this Command
 `curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0", "method":"author_rotateKeys", "params":[], "id":1}' http://localhost:9950` 
 > Here http://localhost:your rpc port
 
@@ -191,6 +199,11 @@ Get Your rotatekeys  > Open terminal > Move to Argochain folder then Do this Com
 `{"jsonrpc":"2.0","result":"0x53f1c4efcf83e0d80f44d49be724faa18998ec6ebed8b5c79f936af1bc16d31730c9adf49829c42333d6e32fe858b682bcc0dbe8f2ead6be4dd5ac85a400c12d12ec9ae40f71222c087f4eadede7086b5bbb5102676ce64eac8e1daf8499921d04ceb33b8c112517f8052ea2e4e0b7d9a1f291e054c831724ca9dd555fed4f77","id":1}ronnie
         `
 
-8. Copy the `result` section and paste it to `rotatekeys` section 
-9. Click On Bond & Validate
-10. Wait for an Era (Approximate 1 hour) for the participation of block validation.
+
+
+Copy the `result` section and paste it to `rotatekeys` section 
+#### > Click On Bond & Validate
+
+![Screenshot_33](https://github.com/rony-devolved-AI/jira-issue/assets/157959679/ed8a66af-350b-45fd-8dbc-98887b360f40)
+
+#### Wait for an Era (Approximate 1 hour) for the participation of block validation.
