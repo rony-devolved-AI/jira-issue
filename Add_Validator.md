@@ -163,7 +163,7 @@ subkey generate --scheme Sr25519 --password-interactive
 
 ```bash
 nohup ./target/release/argochain \
---base-path /tmp/node07 \
+--base-path /tmp/node05 \
 --chain ./customSpecRaw.json \
 --port 30345 \
 --rpc-port 9955 \
