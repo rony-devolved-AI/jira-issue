@@ -94,7 +94,7 @@ subkey generate --scheme Ed25519 --password-interactive
 ./target/release/argochain key insert --base-path /tmp/node05 \
 --chain ./customSpecRaw.json \
 --scheme Ed25519 \
---suri 0xb36bf9f8705e9ba7d5d8633288a23084ef31b1934a55fca70153682d95958818 \
+--suri <Secret Seed> \
 --password-interactive \
 --key-type gran
 ```
@@ -110,7 +110,7 @@ subkey generate --scheme Sr25519 --password-interactive
 ./target/release/argochain key insert --base-path /tmp/node05 \
 --chain ./customSpecRaw.json \
 --scheme Sr25519 \
---suri 0x651497fc973f1cf23bd3eccefbc8297f9fff6ca7dcf316ab0e245ddcb61db386 \
+--suri <Secret Seed> \
 --password-interactive \
 --key-type imon
 ```
@@ -126,7 +126,7 @@ subkey generate --scheme Sr25519 --password-interactive
 ./target/release/argochain key insert --base-path /tmp/node05 \
 --chain ./customSpecRaw.json \
 --scheme Sr25519 \
---suri 0x4172ab61c3f1b92dcc6c8555508d0bd111db6319d605c4ff9100cd8e885a20a3 \
+--suri <Secret Seed> \
 --password-interactive \
 --key-type audi
 ```
