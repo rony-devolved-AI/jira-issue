@@ -17,7 +17,7 @@
    - Simulation and Testing
    - Community Feedback
    - Iterative Approach
-6. **Conclusion and Next Steps**
+6. **Conclusion**
 
 ---
 
@@ -77,7 +77,7 @@ For a Substrate-based network with PoS and BABE, the initial validator count can
 - **Initial Conservative Count**: Start with a lower number of validators and increase based on network stability and feedback.
 - **Governance Framework**: Establish rules for dynamic adjustment of validator count through governance mechanisms.
 
-### 6. Conclusion and Next Steps
+### 6. Conclusion 
 
 #### Conclusion
 Starting with `10-20 validators` for a Substrate-based blockchain network using PoS and BABE provides a good balance between decentralization, security, and performance. Adjustments can be made based on specific network needs, community feedback, and ongoing performance analysis.
