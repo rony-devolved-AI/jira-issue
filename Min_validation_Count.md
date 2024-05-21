@@ -1,28 +1,33 @@
 ## Documentation: Validator Count Proposal for Substrate-Based Blockchain Network (PoS and BABE)
 
 ### Table of Contents
-1. **Introduction**
-2. **Factors Influencing the Number of Validators**
+1. **Question**
+2. **Existing Answer**
+3. **Factors Influencing the Number of Validators**
    - Consensus Mechanism
    - Decentralization Goals
    - Security Considerations
    - Network Throughput and Performance
-3. **Proposed Validator Count**
+4. **Proposed Validator Count**
    - Minimum Viable Network
    - Scaling the Network
-4. **Research Analysis**
+5. **Research Analysis**
    - Existing Networks
    - Performance Studies
-5. **Validation**
+6. **Validation**
    - Simulation and Testing
    - Community Feedback
    - Iterative Approach
-6. **Conclusion**
+7. **Conclusion**
 
 ---
 
-### 1. Introduction
-Launching a Substrate-based blockchain network with Proof of Stake (PoS) and Blind Assignment for Blockchain Extension (BABE) consensus mechanisms involves critical decisions regarding the optimal number of validators. Validators are essential for maintaining the network's security, decentralization, and performance. This document outlines a comprehensive analysis and proposal for the initial number of validators required to start a Substrate-based blockchain network using PoS and BABE.
+### 1. Question
+How many validators to be there to start the chain ?
+____
+### 2. Existing Answer
+**False**
+___
 
 ### 2. Factors Influencing the Number of Validators
 
@@ -42,7 +47,7 @@ Substrate-based networks utilizing PoS and BABE require careful consideration of
 #### Network Throughput and Performance
 - **More Validators**: Can lead to higher network latency and lower transaction throughput.
 - **Balance**: Essential to maintain an optimal balance between validator count and network performance.
-
+_____
 ### 3. Proposed Validator Count
 
 #### Minimum Viable Network
@@ -52,7 +57,7 @@ For a Substrate-based network with PoS and BABE, the initial validator count can
 #### Scaling the Network
 - **Initial Low Count**: Begin with 10-20 validators, scalable as the network matures and gains adoption.
 - **Governance Mechanisms**: Implement mechanisms to dynamically add or remove validators based on network performance and governance decisions.
-
+____
 ### 4. Research Analysis
 
 #### Existing Networks
@@ -62,7 +67,7 @@ For a Substrate-based network with PoS and BABE, the initial validator count can
 #### Performance Studies
 - **PoS Networks**: Studies indicate performance degradation with too many validators, necessitating an optimal starting point.
 - **BFT Networks**: (Byzantine Fault Tolerant)  Illustrate the trade-off between security and performance, with fewer validators typically offering better efficiency.
-
+___
 ### 5. Validation
 
 #### Simulation and Testing
@@ -76,7 +81,7 @@ For a Substrate-based network with PoS and BABE, the initial validator count can
 #### Iterative Approach
 - **Initial Conservative Count**: Start with a lower number of validators and increase based on network stability and feedback.
 - **Governance Framework**: Establish rules for dynamic adjustment of validator count through governance mechanisms.
-
+___
 ### 6. Conclusion 
 
 #### Conclusion
