@@ -89,3 +89,37 @@ Starting with `10-20 validators` for a Substrate-based blockchain network using 
 
 
 By considering these factors and following a structured approach, the network can ensure a robust and scalable validator setup from the outset.
+
+
+
+### Initial Validator Counts for Substrate-Based Blockchains
+
+Here is a summary of the initial number of validators for various Substrate-based blockchains:
+
+1. **Polkadot**
+   - **Initial Validators**: Polkadot started with around 20 validators and gradually increased this number as part of their scaling strategy. Over time, Polkadot has implemented programs such as the Thousand Validators Programme to increase decentralization and security by expanding the validator set.
+   - **Details**: Validators are selected based on the Nominated Proof of Stake (NPoS) consensus mechanism, where both self-stake and nominations from other participants are considered.
+
+2. **Kusama**
+   - **Initial Validators**: Kusama, Polkadot’s canary network, began with about 25 validators.
+   - **Details**: Similar to Polkadot, Kusama uses the NPoS consensus mechanism, allowing for rapid iteration and testing of new features before they are deployed on Polkadot.
+
+3. **Acala Network**
+   - **Initial Validators**: Acala started with approximately 20 validators.
+   - **Details**: As a DeFi hub on Polkadot, Acala leverages the shared security and interoperability provided by the Polkadot relay chain.
+
+4. **Phala Network**
+   - **Initial Validators**: Phala Network began with about 10 validators.
+   - **Details**: Phala focuses on providing secure and decentralized off-chain compute resources, using a Proof of Stake (PoS) consensus mechanism.
+
+5. **Edgeware**
+   - **Initial Validators**: Edgeware started with 15 validators.
+   - **Details**: Edgeware is a smart contract platform that uses Substrate, starting with a manageable number of validators to ensure network stability.
+
+6. **Centrifuge**
+   - **Initial Validators**: Centrifuge initially used 10 validators.
+   - **Details**: This network focuses on financial supply chain applications and uses a PoS consensus mechanism to secure transactions.
+
+These initial validator counts were chosen to balance security, decentralization, and network performance. Starting with a smaller number of validators allows these networks to establish stability and gradually scale as they grow.
+
+For more detailed information, you can visit their respective websites or refer to resources such as the Polkadot Wiki and other developer documentation.
