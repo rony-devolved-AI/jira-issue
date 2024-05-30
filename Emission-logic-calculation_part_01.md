@@ -32,3 +32,4 @@ const REWARD_CURVE: PiecewiseLinear<'static> = curve!(
 5. **_max_piece_count_**  This determines the `complexity` of the inflation curve. A `higher number` means the curve is `more detailed` and can `more accurately` give rewards, but it also requires `more computational` resources to calculate.
 
 6. **_test_precision_**  This is the `allowable margin` of error when testing the curve to ensure it's working correctly. A `smaller number` means the tests are more strict and the curve must be `more precise`.
+7. **_Customization_** For doing customization we need to customize reward curve and do simulation . Always remember Reward payout will be given after each era (Appox. 1 Hour) Now its producing `600` block per era . Now it's giving 16.560  AGC
