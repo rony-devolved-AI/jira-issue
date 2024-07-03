@@ -28,9 +28,9 @@ pub const VERSION: RuntimeVersion = RuntimeVersion {
 
 ```
 
-- Increment spec_name and impl_name accordingly cause both bear different meaning 
-- spec_name specifies the name of the runtime.
-- impl_name specifies the name of the outer node client.
+- Increment `spec_name` and `impl_name` accordingly cause both bear different meaning 
+- `spec_name` specifies the name of the runtime.
+- `impl_name` specifies the name of the outer node client.
 - To upgrade the runtime, you must increase the spec_version
 
 
