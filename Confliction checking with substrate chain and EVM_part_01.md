@@ -1,4 +1,4 @@
-# Conflic checking between Substrate and EVM Accounts
+# Conflic checking between Substrate and EVM Account
 
 
 | Feature                      | Substrate Account                                 | EVM-Compatible Account                              | Potential Conflicts                          |
