@@ -20,3 +20,6 @@ To change the minimum staked amount (also known as the minimum validator bond) u
 ### Step 4: Confirmation
 After submitting the transaction, you'll need to wait for it to be included in a block and finalized. Once it's finalized, the new minimum validator bond will be enforced on the network.
 
+### Step 5: Unbound
+After the confirmation A validator who has staked using previous minimum bonding amount can unbond the extra amount . But he needs to wait for bondiing duration to unlock his extra amount of AGC . For this you need to go to staking > Accounts > Validators section . There you will find 3 dots , click it and you will find unbond option .
+
