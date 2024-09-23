@@ -11,12 +11,13 @@
 3. **Input Parameters:**
    - **To:** Provide the **AccountId** of the recipient.
    - **Amount:** Enter the transfer amount, ensuring it includes 18 decimal places.
-   - **Message:** Input the your message, (ensure the message does not exceed 64 bits in length).
+   - **Message:** Input the your message, (ensure the message does not exceed 64 bytes in length).
 
 4. **Submit the Transaction:**
    - Once all parameters are correctly entered, submit the transaction.
 
 ---
+![Balance_transfer](https://github.com/user-attachments/assets/2945ecf6-c89d-4152-ad54-a11af2240eb3)
 
 ---
 
