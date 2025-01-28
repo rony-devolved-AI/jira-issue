@@ -68,6 +68,17 @@ subkey generate --scheme Sr25519 --password-interactive
 ```bash
 subkey generate --scheme Sr25519 --password-interactive
 ```
+### Generate Mixnet Id
+
+```bash
+subkey generate --scheme Sr25519 --password-interactive
+```
+
+### Generate Beefy ID
+
+```bash
+subkey generate --scheme Ecdsa --password-interactive
+```
 
 
 # 4. Configure Your Node
